@@ -1,6 +1,6 @@
 class Student extends Person {
     String subject;
-    Teacher teacher; // Association relationship
+    Teacher teacher;
 
     Student(String name, Date dob, Teacher teacher, String subject) {
         this.name = name; this.dob = dob; this.teacher = teacher; this.subject = subject;
