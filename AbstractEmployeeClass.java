@@ -1,6 +1,6 @@
 abstract class Employee extends Person {
     Date dateOfAppointment;
-    private int salary; // Encapsulation: Private variable
+    private int salary;
 
     abstract void setSalary(int sal);
     int getSalary() { return salary; }
